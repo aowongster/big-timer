@@ -1,0 +1,29 @@
+#input-date
+{
+    height:200px;
+    font-size:160pt;
+    border: 0px none;
+}
+
+.center {
+  top: 30%;
+  position: absolute;
+  text-align: center;
+}
+
+/*.overflow {
+  overflow: hidden;
+}*/
+
+input:focus
+{
+    outline: none;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
